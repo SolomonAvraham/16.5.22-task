@@ -167,10 +167,94 @@ function eighteen() {
 }
 eighteen();
 
-
-
 function nineteen() {
-    
-
+  var b = 4;
+  var d = 4 + b;
+  console.log(b, d);
 }
 nineteen();
+
+// function twenty() {
+//   var num = +prompt("number:");
+//   if (num > 10) {
+//     document.write("greater then 10");
+//   }
+// }
+// twenty();
+
+// function twentyOne() {
+//     var num = +prompt("number:")
+//     if (num > 10) {
+//         console.log("greater then 10");
+//     }
+//     else if (num < 10) {
+//         console.log("less then 10");
+//     }
+//     else {
+
+//     }
+// }
+// twentyOne();
+
+// function twentyTwo() {
+//     var num = +prompt("number:");
+//     if (num > 10) {
+//         console.log("greater then 10");
+//     }
+//     else if (num < 10) {
+//         console.log("less then 10");
+//     }
+//     else {
+//         console.log("equal to 10");
+//     }
+// }
+// twentyTwo();
+
+// function twentyThree() {
+//   var first = +prompt("first number:");
+//   var second = +prompt("second number:");
+//   console.log(first <= second);
+//   if (first > second) {
+//     console.log("first ");
+//   } else if (first<second) {
+//     console.log("second");
+//   } else {
+//     console.log("values are equal");
+//   }
+// }
+// twentyThree();
+
+// function twentyFour() {
+//   var num = 1;
+//   while (num < 101) {
+//     console.log(num);
+//     num++;
+//   }
+// }
+// twentyFour();
+
+// function twentyFive() {
+//   var i = 0;
+//   var sum = 0;
+//   while (i < 5) {
+//     var num = +prompt("Numbers:");
+//     sum = num + sum;
+//     i++;
+//   }
+//   console.log(sum,sum/5);
+// }
+// twentyFive();
+
+
+
+function twentysix() {
+    var num = 2;
+    while (num < 50) {
+        if (num % 2 == 0) {
+            console.log(num);
+        }
+        num++;
+       
+    }
+}
+twentysix();
