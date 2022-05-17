@@ -245,16 +245,34 @@ nineteen();
 // }
 // twentyFive();
 
-
-
-function twentysix() {
-    var num = 2;
-    while (num < 50) {
-        if (num % 2 == 0) {
-            console.log(num);
-        }
-        num++;
-       
+function twentySix() {
+  var num = 2;
+  while (num < 50) {
+    if (num % 2 == 0) {
+      console.log(num);
     }
+    num++;
+  }
 }
-twentysix();
+twentySix();
+
+function twentySeven() {
+  var num = 1;
+  while (num < 50) {
+    console.log(num);
+    num += 3;
+  }
+}
+twentySeven();
+
+function twentyEight() {
+  var num = +prompt("Number:");
+  var i = 1;
+  var sum = 1;
+  while (i <= num) {
+    sum = num * sum;
+    num--;
+  }
+  console.log(sum);
+}
+twentyEight();
