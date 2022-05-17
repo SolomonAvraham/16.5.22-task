@@ -263,16 +263,28 @@ function twentySeven() {
     num += 3;
   }
 }
-twentySeven();
 
-function twentyEight() {
-  var num = +prompt("Number:");
+// twentySeven();
+
+// function twentyEight() {
+//   var num = +prompt("Number:");
+//   var sum = 1;
+//   while (1 <= num) {
+//     sum = num * sum;
+//     num--;
+//   }
+//   console.log(sum);
+// }
+// twentyEight();
+
+function twentyNine() {
   var i = 1;
-  var sum = 1;
-  while (i <= num) {
-    sum = num * sum;
-    num--;
+  while (i <= 5) {
+    var num = +prompt("Number:");
+    var max = Number.MAX_SAFE_INTEGER + num;
+    var min = Number.MIN_SAFE_INTEGER + num;
+    console.log("MAX:" + max, "MIN:" + min);
+    i++;
   }
-  console.log(sum);
 }
-twentyEight();
+twentyNine();
