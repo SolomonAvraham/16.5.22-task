@@ -297,12 +297,24 @@ function thirty() {
 
 thirty();
 
-function thirtyOne() {
-  var sum = 0;
-  for (var i = 0; i < 5; i++) {
-    var num = +prompt("Number:");
-    sum += num;
+// function thirtyOne() {
+//   var sum = 0;
+//   for (var i = 0; i < 5; i++) {
+//     var num = +prompt("Number:");
+//     sum += num;
+//   }
+//   console.log("SUM:" + sum, "AVG:" + sum / 5);
+// }
+// thirtyOne();
+
+function thirtyTwo() {
+  var num = 2;
+  for (var i = 0; i <= 48; i++) {
+    if (num % 2 == 0) {
+      console.log(num);
+    }
+    num++;
   }
-  console.log("SUM:" + sum, "AVG:" + sum / 5);
 }
-thirtyOne();
+
+thirtyTwo();
