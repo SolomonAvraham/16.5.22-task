@@ -277,14 +277,32 @@ function twentySeven() {
 // }
 // twentyEight();
 
-function twentyNine() {
-  var i = 1;
-  while (i <= 5) {
-    var num = +prompt("Number:");
-    var max = Number.MAX_SAFE_INTEGER + num;
-    var min = Number.MIN_SAFE_INTEGER + num;
-    console.log("MAX:" + max, "MIN:" + min);
-    i++;
+// function twentyNine() {
+//   var i = 1;
+//   while (i <= 5) {
+//     var num = +prompt("Number:");
+//     var max = Number.MAX_SAFE_INTEGER + num;
+//     var min = Number.MIN_SAFE_INTEGER + num;
+//     console.log("MAX:" + max, "MIN:" + min);
+//     i++;
+//   }
+// }
+// twentyNine();
+
+function thirty() {
+  for (var num = 1; num <= 100; num++) {
+    console.log(num);
   }
 }
-twentyNine();
+
+thirty();
+
+function thirtyOne() {
+  var sum = 0;
+  for (var i = 0; i < 5; i++) {
+    var num = +prompt("Number:");
+    sum += num;
+  }
+  console.log("SUM:" + sum, "AVG:" + sum / 5);
+}
+thirtyOne();
