@@ -162,7 +162,7 @@ function eighteen() {
   var player1 = ["sol", 25];
   var player2 = ["yoni", 35];
   var player3 = ["lony", 15];
-  console.log(player1[1] + player2[1] + player3[1] / 3);
+  console.log((player1[1] + player2[1] + player3[1]) / 3);
   console.log(player1[0], player2[0], player3[0]);
 }
 eighteen();
@@ -286,6 +286,7 @@ function twentySeven() {
 //     console.log("MAX:" + max, "MIN:" + min);
 //     i++;
 //   }
+  
 // }
 // twentyNine();
 
@@ -318,3 +319,36 @@ function thirtyTwo() {
 }
 
 thirtyTwo();
+
+function thirtyThree(){
+  for (var num = 1; num < 50; num++){
+    console.log(num);
+    num += 2;
+  }
+}
+thirtyThree();
+
+
+// function thirtyFour(){
+
+//   var num = +prompt("Number:");
+//   var sum = 1;
+//   for (var i = 0; i < num; num--) {
+//    sum= sum * num;
+//   }
+//   console.log(sum);
+// }
+
+// thirtyFour();
+
+
+function thirtyFive() {
+  var num = 0;
+  do {
+    console.log(num);
+    num++;
+  }
+  while (num <=100) {
+  }
+}
+thirtyFive();
