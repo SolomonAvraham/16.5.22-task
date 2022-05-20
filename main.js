@@ -286,7 +286,7 @@ function twentySeven() {
 //     console.log("MAX:" + max, "MIN:" + min);
 //     i++;
 //   }
-  
+
 // }
 // twentyNine();
 
@@ -320,14 +320,13 @@ function thirtyTwo() {
 
 thirtyTwo();
 
-function thirtyThree(){
-  for (var num = 1; num < 50; num++){
+function thirtyThree() {
+  for (var num = 1; num < 50; num++) {
     console.log(num);
     num += 2;
   }
 }
 thirtyThree();
-
 
 // function thirtyFour(){
 
@@ -341,14 +340,46 @@ thirtyThree();
 
 // thirtyFour();
 
-
 function thirtyFive() {
   var num = 0;
   do {
     console.log(num);
     num++;
-  }
-  while (num <=100) {
+  } while (num <= 100);
+  {
   }
 }
 thirtyFive();
+
+// function thirtySix(){
+//   var i = 0;
+//   var sum = 0;
+//   do {
+//     var num = +prompt("Number:");
+//     sum = sum+num;
+//     i++
+//   } while (i < 5) {
+
+//   }
+//   console.log("SUM:"+sum,"AVG:"+ sum / 5);
+// }
+// thirtySix();
+
+function check(firstName) {
+  for (var i = 0; i < firstName.lenght; i++)
+    if (i < firstName[i]) {
+      return firstName.touppercase();
+    }
+  console.log(firstName);
+}
+
+check("sol");
+
+function targil(myArray) {
+
+}
+
+
+let foo =0;
+let bar = typeof foo;
+console.log(bar); 
