@@ -375,11 +375,61 @@ function check(firstName) {
 
 check("sol");
 
-function targil(myArray) {
 
+
+
+function cheackOne(num,b,a) {
+
+
+  return  num+b+a+"\nggg";
 }
 
+var sum = cheackOne(33,4,3);
+console.log(sum);
 
-let foo =0;
-let bar = typeof foo;
-console.log(bar); 
+
+function twoNum(a, b) {
+  if (a < b) {
+    return b;
+  }
+  else {
+    return a;
+  }
+}
+
+var sum = twoNum(10, 11);
+console.log(sum);
+
+
+function targil(num1, num2) {
+  return num1 + num2;
+}
+var sumTargil = targil(10, 5);
+console.log(sumTargil);
+
+function oneNum(num) {
+  var sum = 1;
+  for (var i = 0; i <= num; i++){
+    sum= sum + num;
+    num--;
+  }
+  return sum;
+}
+
+var sumOne = oneNum(4);
+console.log(sumOne);
+
+
+var a = 5;
+var b = 15;
+function replaceNum() {
+  var helper= a;
+  a = "a="+b;
+  b = "b="+helper;
+  var sumHelper = [a,b];
+  return sumHelper;
+}
+var sum = replaceNum();
+console.log(sum);
+
+
